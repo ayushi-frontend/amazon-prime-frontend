@@ -1,0 +1,238 @@
+*{
+    padding: 0;margin: 0;
+}
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+.navbar{
+    padding: 10px 30px;
+    background-color:#00050d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    /* margin-left: 30px; */
+    border-radius: 10px;
+    gap: 40px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Graphik Web, Graphik, sans-serif;
+    position: sticky;
+    top: 0;
+}
+.nav-middle{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.nav-content{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.prime-logo{
+    height: 20px;
+}
+.nav-btn{
+    display: flex;
+    align-items: flex-end !important;
+    justify-content: flex-end !important;
+    gap: 20PX;
+}
+.nav-contact{
+    height: 30px;
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #157bcf;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif ;
+    font-weight: 500;
+}
+.first-wallpaper{
+    /* width: 100%; */
+    background-color: #157bcf;
+    background-image: url(./assets/first\ wallpaper.jpg);
+    background-size: cover;
+    height: 80%;
+    color: white;
+}
+.heading1{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif ;
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+
+}
+.heading2{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif ;
+    padding-left: 50px;
+
+}
+.wallpaper-btn{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif ;
+    height: 60px;
+    width: 20%;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.second-wallaper{
+    width: 100%;
+    /* height: 600px; */
+    background-image: url(./assets/second\ wallpaper.jpg);
+    background-size: cover;
+}
+.second-wallpaper-overlay{
+    width: 50%;
+    height: 600px;
+    background-color:black;
+}
+.s-heading1{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif ;
+    padding-left: 50px;
+    padding-top: 70px;
+    /* padding-bottom: 40px; */
+    color: white;
+ 
+}
+.s-heading2{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif ;
+    padding-left: 50px;
+    padding-top: 30px;
+    /* padding-bottom: 40px; */
+    color: white;
+ 
+}
+.s-btn{
+font-size: 20px;
+font-weight: 400;
+font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif ;
+height: 60px;
+width: 20%;
+background-color: white;
+color: black;
+border: none;
+border-radius: 10px;
+margin-top: 30px;
+margin-left: 50px;
+}
+.third-wallpaper{
+    height: 800px;
+    width: 100%;
+    background-color: #00050d;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.third-wallpaper-inner{
+    height: 400px;
+    width: 50%;
+    background-color: #00050d;
+    /* margin-left: 550px; */
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+.img{
+    height: 130px;
+    border-radius: 15px;
+}
+.first-row-img{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
+}
+.second-row-img{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
+}
+.third-row-img{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
+}
+.third-wallpaper-inntext{
+    height: 400px;
+    width:600px;
+    background-color: #00050d;
+    display: flex;
+    flex-direction: column;
+    color:white ;
+}
+.tw-1{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif ;
+    margin-left: 40px;
+}
+.tw-2{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif ;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.end-div{
+    height: 150px;
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.end-img{
+    height: 30px;
+}
+.end-inner{
+    height: 30px;
+    width: 28%;
+    background-color: #222222;
+    color:#79b8f3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif ;
+
+}
+.end-text{
+    color: #8197a4;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif ;
+
+}
